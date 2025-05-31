@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARAM SYSTEMS - Smart Building Automation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Added Google Fonts with Arabic support (Tajawal) -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Added favicon -->
+    <link rel="icon" href="images/logo.jfif" type="image/jpeg">
+    <!-- Removed Google Maps API script -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.jfif" alt="ARAM SYSTEMS Logo" class="logo-img">
+                </a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about" class="lang-en">About Us</a><a href="#about" class="lang-ar">عن الشركة</a></li>
+                    <li><a href="#services" class="lang-en">Services</a><a href="#services" class="lang-ar">خدماتنا</a></li>
+                    <li><button id="feedbackBtn" class="btn-primary lang-en">Submit Feedback</button><button id="feedbackBtn-ar" class="btn-primary lang-ar">إرسال ملاحظات</button></li>
+                    <li class="language-switch">
+                        <button id="langToggle" class="btn-language">
+                            <span class="lang-en">العربية</span>
+                            <span class="lang-ar">English</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="lang-en">Smart Building Automation Solutions</h1>
+            <h1 class="lang-ar">حلول أتمتة المباني الذكية</h1>
+            <p class="lang-en">Enhancing living experiences through innovative technology</p>
+            <p class="lang-ar">تعزيز تجارب المعيشة من خلال التكنولوجيا المبتكرة</p>
+            <button id="heroFeedbackBtn" class="btn-primary lang-en">Report an Issue</button>
+            <button id="heroFeedbackBtn-ar" class="btn-primary lang-ar">الإبلاغ عن مشكلة</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="lang-en">About ARAM SYSTEMS</h2>
+            <h2 class="lang-ar">عن أنظمة آرام</h2>
+            <p class="lang-en">ARAM SYSTEMS is a leading smart building automation company based in Riyadh and the Eastern Province of Saudi Arabia. We specialize in creating intelligent living environments that enhance comfort, security, and energy efficiency.</p>
+            <p class="lang-ar">أنظمة آرام هي شركة رائدة في مجال أتمتة المباني الذكية مقرها في الرياض والمنطقة الشرقية من المملكة العربية السعودية. نحن متخصصون في إنشاء بيئات معيشية ذكية تعزز الراحة والأمان وكفاءة الطاقة.</p>
+            <p class="lang-en">Our cutting-edge solutions integrate seamlessly with your lifestyle, providing intuitive control over your home or office environment through state-of-the-art technology.</p>
+            <p class="lang-ar">تتكامل حلولنا المتطورة بسلاسة مع نمط حياتك، مما يوفر تحكمًا بديهيًا في بيئة منزلك أو مكتبك من خلال أحدث التقنيات.</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-home"></i>
+                    <h3 class="lang-en">Smart Home Solutions</h3>
+                    <h3 class="lang-ar">حلول المنزل الذكي</h3>
+                    <p class="lang-en">Comprehensive automation for residential buildings</p>
+                    <p class="lang-ar">أتمتة شاملة للمباني السكنية</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-building"></i>
+                    <h3 class="lang-en">Commercial Systems</h3>
+                    <h3 class="lang-ar">أنظمة تجارية</h3>
+                    <p class="lang-en">Intelligent solutions for offices and commercial spaces</p>
+                    <p class="lang-ar">حلول ذكية للمكاتب والمساحات التجارية</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3 class="lang-en">24/7 Support</h3>
+                    <h3 class="lang-ar">دعم على مدار الساعة</h3>
+                    <p class="lang-en">Round-the-clock technical assistance</p>
+                    <p class="lang-ar">مساعدة فنية على مدار الساعة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="lang-en">Our Services</h2>
+            <h2 class="lang-ar">خدماتنا</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3 class="lang-en">Lighting Control</h3>
+                    <h3 class="lang-ar">التحكم في الإضاءة</h3>
+                    <p class="lang-en">Smart lighting solutions for energy efficiency and ambiance</p>
+                    <p class="lang-ar">حلول إضاءة ذكية لكفاءة الطاقة والأجواء</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-temperature-high"></i>
+                    <h3 class="lang-en">Climate Control</h3>
+                    <h3 class="lang-ar">التحكم في المناخ</h3>
+                    <p class="lang-en">Intelligent HVAC systems for optimal comfort</p>
+                    <p class="lang-ar">أنظمة تكييف ذكية للراحة المثلى</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3 class="lang-en">Security Systems</h3>
+                    <h3 class="lang-ar">أنظمة الأمان</h3>
+                    <p class="lang-en">Advanced security and surveillance solutions</p>
+                    <p class="lang-ar">حلول متقدمة للأمن والمراقبة</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tv"></i>
+                    <h3 class="lang-en">Entertainment Systems</h3>
+                    <h3 class="lang-ar">أنظمة الترفيه</h3>
+                    <p class="lang-en">Integrated audio-visual experiences</p>
+                    <p class="lang-ar">تجارب سمعية وبصرية متكاملة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="feedbackModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="lang-en">Submit Feedback</h2>
+            <h2 class="lang-ar">إرسال ملاحظات</h2>
+            <p class="lang-en">Please provide details about the issue you're experiencing with your smart device.</p>
+            <p class="lang-ar">يرجى تقديم تفاصيل حول المشكلة التي تواجهها مع جهازك الذكي.</p>
+            
+            <form id="feedbackForm">
+                <div class="form-group">
+                    <label for="fullName" class="lang-en">Full Name*</label>
+                    <label for="fullName" class="lang-ar">الاسم الكامل*</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phoneNumber" class="lang-en">Phone Number*</label>
+                    <label for="phoneNumber" class="lang-ar">رقم الهاتف*</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="location" class="lang-en">Location*</label>
+                    <label for="location" class="lang-ar">الموقع*</label>
+                    <input type="text" id="location" name="location" placeholder="Enter your address" class="lang-en" required>
+                    <input type="text" id="location-ar" name="location" placeholder="أدخل عنوانك" class="lang-ar" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="buildingName" class="lang-en">Building (Project) Name*</label>
+                    <label for="buildingName" class="lang-ar">اسم المبنى (المشروع)*</label>
+                    <input type="text" id="buildingName" name="buildingName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="apartmentNumber" class="lang-en">Apartment Number*</label>
+                    <label for="apartmentNumber" class="lang-ar">رقم الشقة*</label>
+                    <input type="text" id="apartmentNumber" name="apartmentNumber" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="issueNote" class="lang-en">Issue Description*</label>
+                    <label for="issueNote" class="lang-ar">وصف المشكلة*</label>
+                    <textarea id="issueNote" name="issueNote" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit" id="submitBtn-en" class="btn-primary lang-en">Submit Feedback</button>
+                <button type="submit" id="submitBtn-ar" class="btn-primary lang-ar">إرسال الملاحظات</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.jfif" alt="ARAM SYSTEMS Logo" class="logo-img">
+                    </div>
+                    <h3>ARAM SYSTEMS</h3>
+                    <p class="lang-en">Smart Building Automation Solutions</p>
+                    <p class="lang-ar">حلول أتمتة المباني الذكية</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="lang-en">Contact Us</h3>
+                    <h3 class="lang-ar">اتصل بنا</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span class="lang-en">Riyadh & Eastern Province, KSA</span><span class="lang-ar">الرياض والمنطقة الشرقية، المملكة العربية السعودية</span></p>
+                    <p><i class="fas fa-phone"></i> +966 XX XXX XXXX</p>
+                    <p><i class="fas fa-envelope"></i> info@aramsystems.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="lang-en">Follow Us</h3>
+                    <h3 class="lang-ar">تابعنا</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="lang-en">&copy; 2023 ARAM SYSTEMS. All Rights Reserved.</p>
+                <p class="lang-ar">&copy; 2023 أنظمة آرام. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
